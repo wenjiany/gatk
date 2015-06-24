@@ -96,12 +96,15 @@ public final class GATKVCFConstants {
     public static final String VARIANT_TYPE_KEY =                   "VariantType";
     public static final String VQS_LOD_KEY =                        "VQSLOD";
 
+<<<<<<< HEAD
     //Custom INFO Keys
     public static final String PolyX =                              "PolyX";
     public static final String DP4T =                               "DP4T";
     public static final String FLANKING =                           "FLANKING";
     public static final String MMQ =                                "MMQ";
 
+=======
+>>>>>>> 616e6962c6d5644ef80fa3258ee561beaf294c87
     //FORMAT keys
     public static final String ALLELE_BALANCE_KEY =                 "AB";
     public static final String PL_FOR_ALL_SNP_ALLELES_KEY =         "APL";

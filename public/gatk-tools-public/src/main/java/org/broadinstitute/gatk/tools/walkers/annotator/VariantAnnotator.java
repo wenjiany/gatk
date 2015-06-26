@@ -200,13 +200,10 @@ public class VariantAnnotator extends RodWalker<Integer, Integer> implements Ann
     @Argument(fullName="MendelViolationGenotypeQualityThreshold",shortName="mvq",required=false,doc="The genotype quality threshold in order to annotate mendelian violation ratio")
     public double minGenotypeQualityP = 0.0;
 
-<<<<<<< HEAD
     @Argument(fullName="trim_n_bases",shortName="trim",required=false,doc="Number of bases to trim")
     public int trim_n_bases = 0;
 
 
-=======
->>>>>>> 616e6962c6d5644ef80fa3258ee561beaf294c87
     private VariantAnnotatorEngine engine;
 
     /**

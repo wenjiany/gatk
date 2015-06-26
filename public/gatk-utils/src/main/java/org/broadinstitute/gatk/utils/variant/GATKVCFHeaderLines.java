@@ -33,10 +33,6 @@ import htsjdk.variant.vcf.VCFInfoHeaderLine;
 
 import static org.broadinstitute.gatk.utils.variant.GATKVCFConstants.*;
 
-<<<<<<< HEAD
-import java.awt.*;
-=======
->>>>>>> 616e6962c6d5644ef80fa3258ee561beaf294c87
 import java.util.HashMap;
 import java.util.Map;
 
@@ -151,7 +147,6 @@ public class GATKVCFHeaderLines {
         addInfoLine(new VCFInfoHeaderLine(BEAGLE_AC_COMP_KEY, 1, VCFHeaderLineType.Integer, "Allele Count from Comparison ROD at this site"));
         addInfoLine(new VCFInfoHeaderLine(BEAGLE_AF_COMP_KEY, 1, VCFHeaderLineType.Integer, "Allele Frequency from Comparison ROD at this site"));
         addInfoLine(new VCFInfoHeaderLine(BEAGLE_AN_COMP_KEY, 1, VCFHeaderLineType.Float, "Allele Number from Comparison ROD at this site"));
-<<<<<<< HEAD
 
         //Custom annotation info field
         addInfoLine(new VCFInfoHeaderLine(PolyX, 1, VCFHeaderLineType.Float, "Number of repeat of reference base"));
@@ -159,7 +154,5 @@ public class GATKVCFHeaderLines {
         addInfoLine(new VCFInfoHeaderLine(FLANKING, 1, VCFHeaderLineType.String, "Flanking reference seq"));
         addInfoLine(new VCFInfoHeaderLine(MMQ, 4, VCFHeaderLineType.Integer, "REF_MQ,ALT_MQ"));
 
-=======
->>>>>>> 616e6962c6d5644ef80fa3258ee561beaf294c87
     }
 }
